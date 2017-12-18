@@ -1,0 +1,10 @@
+name: pywwt
+
+channels:
+  - wwt/label/dev
+
+dependencies:
+  - python>=3
+  - pywwt
+  - pyqt=4
+  - nomkl
