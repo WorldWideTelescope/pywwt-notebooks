@@ -1,7 +1,7 @@
 name: pywwt
 
 channels:
-  - wwt
+  - wwt/label/dev
 
 dependencies:
   - python>=3
