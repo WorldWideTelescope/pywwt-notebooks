@@ -55,14 +55,14 @@
 #   - {ucd: SPECT_FLUX_VALUE}
 #   - {width: 8}
 #   - {precision: E1}
-# - {name: isoTimes, datatype: float64}
+# - {name: iso_times, datatype: float64}
 # - {name: cmap, datatype: string}
 # meta: !!omap
 # - {ID: J_ApJS_223_28_GBM}
 # - {name: J/ApJS/223/28/GBM}
 # - {description: 'Third {gamma}-ray Burst Monitor (GBM) catalog (tables 5-8)'}
 # schema: astropy-2.0
-GRB obs_time ra dec Time Fl.w Fl.n isoTimes cmap
+GRB obs_time ra dec Time Fl.w Fl.n iso_times cmap
 080714B 02:04:12.0534 41.9 8.50 512 7e-07 3e-07 2454661.58625 #000000
 080714C 10:12:01.8376 187.5 -74.00 4096 2e-06 1e-06 2454661.92502 #000000
 080714A 17:52:54.0234 188.1 -60.20 1024 6e-06 3e-06 2454662.24507 #000000
