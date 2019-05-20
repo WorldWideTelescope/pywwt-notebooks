@@ -10,7 +10,7 @@ pip install jupyterlab --user
 jupyter labextension install @jupyter-widgets/jupyterlab-manager --no-build
 
 # Install main packages needed for notebook
-pip install "pywwt>=0.5.2" PyQt5 "astroquery>=0.3.9" "PyYAML>=3.1.3" --user
+pip install git+https://github.com/WorldWideTelescope/pywwt@9e4567014 PyQt5 "astroquery>=0.3.9" "PyYAML>=3.1.3" --user
 
 # Re-build Jupyter Lab
 jupyter lab build
