@@ -2,12 +2,12 @@
 
 This repository contains example notebooks for the [pywwt](https://pywwt.readthedocs.org) package. Click on the following buttons to launch an example notebook:
 
-* Basic introduction [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/WorldWideTelescope/pywwt-notebooks/master?filepath=basic.ipynb)
+* Basic introduction [![Binder](https://mybinder.org/badge.svg)](http://binder.wwt-forum.org/v2/gh/WorldWideTelescope/pywwt-notebooks/master?urlpath=lab/tree/basic.ipynb)
 
-* Showing Kepler K2 fields of view [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/WorldWideTelescope/pywwt-notebooks/master?filepath=kepler2_fovs.ipynb)
+* Showing Kepler K2 fields of view [![Binder](https://mybinder.org/badge.svg)](http://binder.wwt-forum.org/v2/gh/WorldWideTelescope/pywwt-notebooks/master?urlpath=lab/tree/kepler2_fovs.ipynb)
 
-* Plotting data on the surface of a planet [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/WorldWideTelescope/pywwt-notebooks/master?filepath=planet_layers.ipynb)
+* Plotting data on the surface of a planet [![Binder](https://mybinder.org/badge.svg)](http://binder.wwt-forum.org/v2/gh/WorldWideTelescope/pywwt-notebooks/master?urlpath=lab/tree/planet_layers.ipynb)
 
-* Solar system mode  [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/WorldWideTelescope/pywwt-notebooks/master?filepath=solar_system_simulation.ipynb)
+* Solar system mode  [![Binder](https://mybinder.org/badge.svg)](http://binder.wwt-forum.org/v2/gh/WorldWideTelescope/pywwt-notebooks/master?urlpath=lab/tree/solar_system_simulation.ipynb)
 
 *Note: you may have to wait a couple of minutes for the notebook to launch*
