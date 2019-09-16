@@ -21,7 +21,7 @@ the backing software images to be rebuilt.*
 ## Testing the BinderHub infrastructure locally
 
 If you’d like to make changes to this repository and want to test how they’ll
-work in our [BinderHub] instance, you can do so by intalling and using
+work in our [BinderHub] instance, you can do so by installing and using
 [jupyter-repo2docker] — assuming your machine also has [Docker] installed. Just
 run:
 
