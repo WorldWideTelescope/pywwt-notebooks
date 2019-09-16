@@ -8,10 +8,10 @@ any of the following links will launch an example notebook in the cloud:
 [AAS]: https://aas.org/
 [WorldWide Telescope]: http://www.worldwidetelescope.org/
 
-* [Basic introduction](http://binder.wwt-forum.org/v2/gh/WorldWideTelescope/pywwt-notebooks/master?urlpath=lab/tree/first-tutorials/basic.ipynb)
-* [Showing Kepler K2 fields of view](http://binder.wwt-forum.org/v2/gh/WorldWideTelescope/pywwt-notebooks/master?urlpath=lab/tree/first-tutorials/kepler2_fovs.ipynb)
-* [Plotting data on the surface of a planet](http://binder.wwt-forum.org/v2/gh/WorldWideTelescope/pywwt-notebooks/master?urlpath=lab/tree/first-tutorials/planet_layers.ipynb)
-* [Solar system mode](http://binder.wwt-forum.org/v2/gh/WorldWideTelescope/pywwt-notebooks/master?urlpath=lab/tree/first-tutorials/solar_system_simulation.ipynb)
+* [Add a simple overlaid annotation](http://binder.wwt-forum.org/v2/gh/WorldWideTelescope/pywwt-notebooks/master?urlpath=lab/tree/first-tutorials/basic.ipynb)
+* [Explore which parts of the sky have been observed by the NASA K2 mission](http://binder.wwt-forum.org/v2/gh/WorldWideTelescope/pywwt-notebooks/master?urlpath=lab/tree/first-tutorials/kepler2_fovs.ipynb)
+* [Plot earthquake data on the surface of the Earth](http://binder.wwt-forum.org/v2/gh/WorldWideTelescope/pywwt-notebooks/master?urlpath=lab/tree/first-tutorials/planet_layers.ipynb)
+* [Animate the motions of the Solar System planets in 3D](http://binder.wwt-forum.org/v2/gh/WorldWideTelescope/pywwt-notebooks/master?urlpath=lab/tree/first-tutorials/solar_system_simulation.ipynb)
 
 *Note: it is usually fast to launch these notebooks, but if updates were
 recently merged into this repository, you may have to wait a few minutes for
@@ -42,10 +42,15 @@ instead of `/tree`.
 
 ## Acknowledgments
 
-The [WorldWide Telescope] is brought to you by the
-[American Astronomical Society](https://aas.org/) (AAS). Work on these
-notebooks is supported by the American Astronomical Society and grant
-[1642446] from the US [National Science Foundation].
+The AAS WorldWide Telescope system is a [.NET Foundation] project managed by
+the non-profit [American Astronomical Society] (AAS). Work on WWT has been
+supported by the AAS, the US [National Science Foundation] (grants [1550701]
+and [1642446]), the [Gordon and Betty Moore Foundation], and [Microsoft].
 
-[1642446]: https://www.nsf.gov/awardsearch/showAward?AWD_ID=1642446
+[.NET Foundation]: https://dotnetfoundation.org/
+[American Astronomical Society]: https://aas.org/
 [National Science Foundation]: https://www.nsf.gov/
+[1550701]: https://www.nsf.gov/awardsearch/showAward?AWD_ID=1550701
+[1642446]: https://www.nsf.gov/awardsearch/showAward?AWD_ID=1642446
+[Gordon and Betty Moore Foundation]: https://www.moore.org/
+[Microsoft]: https://www.microsoft.com/
