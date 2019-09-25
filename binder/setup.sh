@@ -16,7 +16,7 @@ pip install PyQt5 "astroquery>=0.3.9" "PyYAML>=3.1.3" --user
 # the Dockerfile changes, so we need a scheme that gives us a nice reason to
 # update this file when we want to target a different version of pywwt. That's
 # why we name a commit ID and not a branch name.
-pip install git+https://github.com/WorldWideTelescope/pywwt.git@455fe08dc --user
+pip install git+https://github.com/WorldWideTelescope/pywwt.git@fcc30e3b25 --user
 
 # Re-build Jupyter Lab
 jupyter lab build
