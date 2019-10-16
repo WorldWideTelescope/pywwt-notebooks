@@ -41,6 +41,13 @@ instead of `/tree`.
 [JupyterLab]: https://jupyterlab.readthedocs.io/
 
 
+## Credits
+
+Authorship information for each notebook is included in a statement at the end
+of each. If you contribute improvements to an existing notebook, you are
+strongly encouraged to add your name!
+
+
 ## Acknowledgments
 
 The AAS WorldWide Telescope system is a [.NET Foundation] project managed by
