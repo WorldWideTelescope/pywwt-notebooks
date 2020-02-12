@@ -2,19 +2,16 @@
 
 This repository contains example notebooks for the
 [pywwt](https://pywwt.readthedocs.org) package, which provides access to the
-[AAS] [WorldWide Telescope] inside Python and Jupyter environments. Clicking
-any of the following links will launch an example notebook in the cloud:
+[AAS] [WorldWide Telescope] inside Python and Jupyter environments.
 
 [AAS]: https://aas.org/
 [WorldWide Telescope]: http://www.worldwidetelescope.org/
 
-* [Add a simple overlaid annotation](http://binder.wwt-forum.org/v2/gh/WorldWideTelescope/pywwt-notebooks/master?urlpath=lab/tree/first-tutorials/basic.ipynb)
-* [Visualizing the NASA exoplanet archive](http://binder.wwt-forum.org/v2/gh/WorldWideTelescope/pywwt-notebooks/master?urlpath=lab/tree/first-tutorials/NASA_Exoplanet_Archive.ipynb)
-* [Explore which parts of the sky have been observed by the NASA K2 mission](http://binder.wwt-forum.org/v2/gh/WorldWideTelescope/pywwt-notebooks/master?urlpath=lab/tree/first-tutorials/kepler2_fovs.ipynb)
-* [Plot earthquake data on the surface of the Earth](http://binder.wwt-forum.org/v2/gh/WorldWideTelescope/pywwt-notebooks/master?urlpath=lab/tree/first-tutorials/planet_layers.ipynb)
-* [Animate the motions of the Solar System planets in 3D](http://binder.wwt-forum.org/v2/gh/WorldWideTelescope/pywwt-notebooks/master?urlpath=lab/tree/first-tutorials/solar_system_simulation.ipynb)
+🚀🚀 [**Click here to run these examples in the cloud!**][launch] 🚀🚀
 
-*Note: it is usually fast to launch these notebooks, but if updates were
+[launch]: http://binder.wwt-forum.org/v2/gh/WorldWideTelescope/pywwt-notebooks/master?urlpath=lab/tree/Start%20Here.ipynb
+
+*Note: it is usually fast to launch a notebook server, but if updates were
 recently merged into this repository, you may have to wait a few minutes for
 the backing software images to be rebuilt.*
 
