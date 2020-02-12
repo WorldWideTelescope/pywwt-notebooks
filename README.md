@@ -15,6 +15,11 @@ This repository contains example notebooks for the
 recently merged into this repository, you may have to wait a few minutes for
 the backing software images to be rebuilt.*
 
+Once you’ve launched a cloud server, you can upload and run your own notebooks
+[as shown in this YouTube video](https://www.youtube.com/watch?v=gi2oC4AYrWU).
+(Note that while the video shows an older organization of this notebook
+collection, the general technique still applies.)
+
 
 ## Testing the BinderHub infrastructure locally
 
