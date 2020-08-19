@@ -9,7 +9,7 @@ This repository contains example notebooks for the
 
 🚀🚀 [**Click here to run these examples in the cloud!**][launch] 🚀🚀
 
-[launch]: http://binder.wwt-forum.org/v2/gh/WorldWideTelescope/pywwt-notebooks/master?urlpath=lab/tree/Start%20Here.ipynb
+[launch]: https://mybinder.org/v2/gh/WorldWideTelescope/pywwt-notebooks/master?urlpath=lab/tree/Start%20Here.ipynb
 
 *Note: it is usually fast to launch a notebook server, but if updates were
 recently merged into this repository, you may have to wait a few minutes for
@@ -24,9 +24,8 @@ collection, the general technique still applies.)
 ## Testing the BinderHub infrastructure locally
 
 If you’d like to make changes to this repository and want to test how they’ll
-work in our [BinderHub] instance, you can do so by installing and using
-[jupyter-repo2docker] — assuming your machine also has [Docker] installed. Just
-run:
+work on [BinderHub], you can do so by installing and using [jupyter-repo2docker]
+— assuming your machine also has [Docker] installed. Just run:
 
 ```
 $ jupyter-repo2docker /path/to/pywwt-notebooks
