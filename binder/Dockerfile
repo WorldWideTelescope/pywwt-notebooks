@@ -4,10 +4,11 @@
 
 # https://mybinder.readthedocs.io/en/latest/tutorials/dockerfile.html#preparing-your-dockerfile
 
-FROM ubuntu:18.04
+FROM ubuntu:20.04
 
-# Set up Python 3.6
+# Set up Python
 
+ENV DEBIAN_FRONTEND noninteractive
 RUN apt update
 RUN apt install -y python3 python3-pip git nodejs npm
 RUN pip3 install --upgrade pip
