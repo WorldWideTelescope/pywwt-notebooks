@@ -16,6 +16,7 @@ stages:
 
     steps:
     - bash: |
+        pip3 install setuptools
         pip3 install jupyter-repo2docker
       displayName: Install prereqs
 
