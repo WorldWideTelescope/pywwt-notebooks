@@ -21,6 +21,6 @@ stages:
       displayName: Install prereqs
 
     - bash: |
-        jupyer-repo2docker --no-run .
+        jupyter-repo2docker --no-run .
       displayName: Test image build
 
