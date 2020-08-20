@@ -15,8 +15,12 @@ stages:
       vmImage: 'ubuntu-latest'
 
     steps:
+    - task: UsePythonVersion@0
+      inputs:
+        versionSpec: '3.7'
+
     - bash: |
-        pip3 install setuptools wheel
+        python3 -m pip install --upgrade pip setuptools wheel
         pip3 install jupyter-repo2docker
       displayName: Install prereqs
 
