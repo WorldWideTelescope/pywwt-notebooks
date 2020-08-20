@@ -1,0 +1,25 @@
+# Copyright 2020 the .NET Foundation
+# Licensed under the MIT License
+
+trigger:
+- master
+
+stages:
+- stage: Build
+  displayName: Check image build
+
+  jobs:
+  - job: Build
+    displayName: Build
+    pool:
+      vmImage: 'ubuntu-latest'
+
+    steps:
+    - bash: |
+        pip install jupyter-repo2docker
+      displayName: Install prereqs
+
+    - bash: |
+        jupyer-repo2docker --no-run .
+      displayName: Test image build
+
