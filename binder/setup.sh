@@ -17,6 +17,7 @@ pip install PyQt5 "astroquery>=0.3.9" "PyYAML>=3.1.3" --user
 # update this file when we want to target a different version of pywwt.
 pip install https://github.com/WorldWideTelescope/pywwt/archive/pypa/pywwt@0.10.0.zip --user
 
-# Re-build Jupyter Lab
+# Re-build Jupyter Lab with debuggability for mybinder.org
+# 2020 Oct: setting --minimize=False to try to get mybinder building
 log=$(mktemp)
-jupyter lab build --debug-log-path=$log || cat $log
+jupyter lab build --minimize=False --debug-log-path=$log || { cat $log; exit 1; }
