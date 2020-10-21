@@ -18,4 +18,5 @@ pip install PyQt5 "astroquery>=0.3.9" "PyYAML>=3.1.3" --user
 pip install https://github.com/WorldWideTelescope/pywwt/archive/pypa/pywwt@0.10.0.zip --user
 
 # Re-build Jupyter Lab
-jupyter lab build
+log=$(mktemp)
+jupyter lab build --debug-log-path=$log || cat $log
