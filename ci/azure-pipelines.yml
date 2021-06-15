@@ -1,4 +1,4 @@
-# Copyright 2020 the .NET Foundation
+# Copyright 2021 the .NET Foundation
 # Licensed under the MIT License
 
 trigger:
@@ -17,11 +17,11 @@ stages:
     steps:
     - task: UsePythonVersion@0
       inputs:
-        versionSpec: '3.7'
+        versionSpec: '3.8'
 
     - bash: |
         python3 -m pip install --upgrade pip setuptools wheel
-        pip3 install jupyter-repo2docker
+        pip3 install jupyter-repo2docker six
       displayName: Install prereqs
 
     - bash: |
