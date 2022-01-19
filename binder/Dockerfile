@@ -15,6 +15,7 @@ FROM ubuntu:20.04
 ENV DEBIAN_FRONTEND noninteractive
 RUN apt update
 RUN apt install -y curl python3 python3-pip git
+# useful debugging packages: curl emacs-nox telnet
 RUN curl -sL https://deb.nodesource.com/setup_16.x |bash
 RUN apt install -y nodejs
 RUN pip3 install --upgrade pip

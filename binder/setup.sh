@@ -5,20 +5,25 @@ set -xeuo pipefail
 git config --global user.email "binder@user.com"
 git config --global user.name "Binder"
 
-# Set up Jupyter Lab and needed extensions
-pip install jupyterlab ipyevents --user
-jupyter labextension install  --no-build \
-  @jupyter-widgets/jupyterlab-manager \
-  ipyevents \
-  @wwtelescope/jupyterlab
-
 # Other necessary/useful packages
 pip install \
+  astropy \
   "astroquery>=0.3.9" \
+  ipyevents \
+  jupyterlab \
+  jupyterlab_widgets \
   PyQt5 \
   "PyYAML>=3.1.3" \
+  shapely \
+  reproject \
+  toasty \
+  wwt_data_formats \
+  wwt_jupyterlab_extension \
   wwt-kernel-data-relay \
   --user
+
+# JLab extensions not provided by Python packages
+jupyter labextension install --no-build ipyevents
 
 # Finally, pywwt. BinderHub only knows to rebuild its images when this file or
 # the Dockerfile changes, so we need a scheme that gives us a nice reason to
@@ -43,3 +48,9 @@ EOF
 # 2020 Oct: setting --minimize=False to try to get mybinder building
 log=$(mktemp)
 jupyter lab build --minimize=False --debug-log-path=$log || { cat $log; exit 1; }
+
+# Summary:
+
+jupyter nbextension list
+jupyter serverextension list
+jupyter labextension list
