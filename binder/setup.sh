@@ -23,7 +23,7 @@ pip install \
 # Finally, pywwt. BinderHub only knows to rebuild its images when this file or
 # the Dockerfile changes, so we need a scheme that gives us a nice reason to
 # update this file when we want to target a different version of pywwt.
-pip install https://github.com/WorldWideTelescope/pywwt/archive/pypa/pywwt@0.15.0.zip --user
+pip install https://github.com/WorldWideTelescope/pywwt/archive/pypa/pywwt@0.15.1.zip --user
 
 # Re-build Jupyter Lab with debuggability for mybinder.org
 # 2020 Oct: setting --minimize=False to try to get mybinder building
