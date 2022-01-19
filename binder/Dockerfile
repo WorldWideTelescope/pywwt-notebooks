@@ -4,7 +4,7 @@
 
 # https://mybinder.readthedocs.io/en/latest/tutorials/dockerfile.html#preparing-your-dockerfile
 
-FROM ubuntu:20.10
+FROM ubuntu:21.04
 
 # Set up Python
 
