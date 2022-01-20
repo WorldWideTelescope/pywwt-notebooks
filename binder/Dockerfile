@@ -11,6 +11,9 @@ FROM ubuntu:20.04
 # For the time being, Node has to be installed using an extra repo because the
 # version in Ubuntu 20.04 is too old. And we're stuck on 20.04 because the
 # version of Docker used by MyBinder doesn't work with newer Ubuntu releases.
+# This should now (Jan 2022) be fixed
+# (https://github.com/jupyterhub/binderhub/issues/1445) although I don't know
+# how long it will take for the fix to roll out.
 
 ENV DEBIAN_FRONTEND noninteractive
 RUN apt update

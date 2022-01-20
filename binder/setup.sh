@@ -28,7 +28,7 @@ jupyter labextension install --no-build ipyevents
 # Finally, pywwt. BinderHub only knows to rebuild its images when this file or
 # the Dockerfile changes, so we need a scheme that gives us a nice reason to
 # update this file when we want to target a different version of pywwt.
-pip install https://github.com/WorldWideTelescope/pywwt/archive/pypa/pywwt@0.15.1.zip --user
+pip install https://github.com/WorldWideTelescope/pywwt/archive/pypa/pywwt@0.15.2.zip --user
 
 # Demonstrate how to configure the JupyterLab install to use the bundled app
 # instead of the hosted version. This isn't actually necessary with MyBinder,
