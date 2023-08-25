@@ -4,29 +4,23 @@
 
 # https://mybinder.readthedocs.io/en/latest/tutorials/dockerfile.html#preparing-your-dockerfile
 
-FROM ubuntu:20.04
+FROM ubuntu:22.04
 
-# Set up Python and Node.js.
-#
-# For the time being, Node has to be installed using an extra repo because the
-# version in Ubuntu 20.04 is too old. And we're stuck on 20.04 because the
-# version of Docker used by MyBinder doesn't work with newer Ubuntu releases.
-# This should now (Jan 2022) be fixed
-# (https://github.com/jupyterhub/binderhub/issues/1445) although I don't know
-# how long it will take for the fix to roll out.
+# Set up Python and recent Node.js.
 
 ENV DEBIAN_FRONTEND noninteractive
 RUN apt update
-RUN apt install -y curl python3 python3-pip git
-# useful debugging packages: curl emacs-nox telnet
-RUN curl -sL https://deb.nodesource.com/setup_16.x |bash
+RUN apt install -y --no-install-recommends build-essential curl python3 python3-dev python3-pip git
+RUN curl -sL https://deb.nodesource.com/setup_20.x |bash
 RUN apt install -y nodejs
 RUN pip3 install --upgrade pip
 
 # Set up user as required by mybinder docs:
 
-ENV NB_USER jovyan
-ENV NB_UID 1000
+ARG NB_USER=jovyan
+ARG NB_UID=1000
+ENV USER ${NB_USER}
+ENV NB_UID ${NB_UID}
 ENV HOME /home/${NB_USER}
 
 RUN adduser --disabled-password \
