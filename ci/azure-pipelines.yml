@@ -1,4 +1,4 @@
-# Copyright 2021 the .NET Foundation
+# Copyright 2021-2023 the .NET Foundation
 # Licensed under the MIT License
 
 trigger:
@@ -25,6 +25,6 @@ stages:
       displayName: Install prereqs
 
     - bash: |
-        jupyter-repo2docker --no-run .
+        repo2docker --no-run .
       displayName: Test image build
 
